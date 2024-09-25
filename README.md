@@ -5,15 +5,21 @@ improve model performance. The goal is to predict outcomes based on a given data
 # Project Overview
 In this project, we employ the following methods and tools:
 
-Data Preprocessing: Handling missing values and preparing the dataset for model training.
-Model Selection: Using the XGBoost algorithm, known for its performance in regression tasks.
-Hyperparameter Tuning: Applying RandomizedSearchCV to find the optimal model parameters.
-Model Evaluation: Calculating accuracy and selecting the best model based on evaluation metrics.
+  Data Preprocessing: Handling missing values and preparing the dataset for model training.
+  
+  Model Selection: Using the XGBoost algorithm, known for its performance in regression tasks.
+  
+  Hyperparameter Tuning: Applying RandomizedSearchCV to find the optimal model parameters.
+  
+  Model Evaluation: Calculating accuracy and selecting the best model based on evaluation metrics.
 
 # Key Libraries Used
 pandas: For data manipulation and analysis.
+
 XGBoost: Core regression model used in this analysis.
+
 RandomizedSearchCV: For hyperparameter tuning and cross-validation.
+
 Scikit-learn: To assist with preprocessing and model evaluation.
 
 # Results
